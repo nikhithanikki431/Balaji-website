@@ -15,7 +15,7 @@
     width: 200px;
 }
 #in2{
-    width: 900px;
+    width: 1000px;
     text-align: center;
 }
 #int3{
@@ -63,20 +63,20 @@ ul li:hover ul li{
 }
 .outerbox{
     border: solid 1px;
-    height: 350px;
+    height: 400px;
     display: flex;
     justify-content: space-between;
 }
 #inbox1,#inbox2,#inbox3{
     border: solid 1px;
-    height: 350px;
+    height: 380px;
     z-index: -1;
 }
 #inbox1{
-    width: 600px;
+    width: 700px;
     background-image: url(bb1.jpg);
     background-repeat: no-repeat;
-    background-size: 600px 350px;
+    background-size: 800px 380px;
     animation-name: imgchange;
     animation-duration: 10s;
     animation-iteration-count: infinite;
@@ -101,6 +101,6 @@ ul li:hover ul li{
         background-image: url(bb7.jpg);
     }
 }
-#inbox1,#inbox2{
+#inbox2,#inbox3{
     width: 300px;
 }
