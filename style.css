@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.outbox{
+    border: solid 1px;
+    height: 200px;
+    display: flex;
+}
+#in1,#in2,#in3{
+    border: solid 1px;
+    height: 200px;
+}
+#in1{
+    width: 200px;
+}
+#in2{
+    width: 900px;
+    text-align: center;
+}
+#int3{
+    width: 250px;
+}
+#clgname{
+    font-size: 50px;
+    color: red;
+}
+#name1{
+    font-size: 25px;
+}
+#scrolltext{
+    font-size: 22px;
+    color: maroon;
+    font-weight: bold;
+}
+#navbox{
+    border: solid 1px;
+    height: 50px;
+}
+ul li{
+    border: solid 1px;
+    height: 50px;
+    width: 188px;
+    float: left;
+    background-color: bisque;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 15px;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    font-size: 22px;
+    color: blue;
+    text-decoration: none;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+.outerbox{
+    border: solid 1px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+#inbox1,#inbox2,#inbox3{
+    border: solid 1px;
+    height: 350px;
+    z-index: -1;
+}
+#inbox1{
+    width: 600px;
+    background-image: url(bb1.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px 350px;
+    animation-name: imgchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes imgchange{
+    0%{
+        background-image: url(bb2.jpg);
+    }
+    10%{
+        background-image: url(bb3.jpg);
+    }
+    20%{
+        background-image: url(bb4.jpg);
+    }
+    30%{
+        background-image: url(bb5.jpeg);
+    }
+    40%{
+        background-image: url(bb6.jpg);
+    }
+    50%{
+        background-image: url(bb7.jpg);
+    }
+}
+#inbox1,#inbox2{
+    width: 300px;
+}
